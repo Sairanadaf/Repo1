@@ -8,7 +8,7 @@
 __Meetimg timings__: 9:00 AM - 5:00 PM  
 __Dates__: Sep 9 - 13 2019  
 | Dates | Room Booked | Remarks |
-|---|---|---|---|---|
+|---|---|---|
 | Sep 9 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |
 | Sep 10 | MR BLR03 C2.R24 (24) | The room is in RMZ 2C 2nd  floor |
 | Sep 11 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |
