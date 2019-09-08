@@ -1,14 +1,14 @@
 # JavaScript, TypeScript and Node.js Training
 
 ## Software to be installed, course curriculum
-The list of software to be installed before start of training can be found [here](./js-ts-nodejs-list-of-software-to-be-installed.pdf)
-The course curriculum can be found [here](./git-javascript-typescript-nodejs-revised.pdf)
+- The list of software to be installed before start of training can be found [here](./js-ts-nodejs-list-of-software-to-be-installed.pdf)
+- The course curriculum can be found [here](./git-javascript-typescript-nodejs-revised.pdf)
 
 ## Meeting timings
 Sep 7, 8, 14, 15, 21, 22, 28, 29 - 9:00 AM - 12:00 PM (PST)
 
 ## Exercises
-Please refer the [exercises document for exercises given during the training sessions](./exercises.md)
+Please refer the [exercises document](./exercises.md) for exercises given during the training sessions.
 
 ## Video recordings
 - [Sep 9 2019]()
