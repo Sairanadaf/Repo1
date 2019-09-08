@@ -51,10 +51,14 @@ http://localhost:4201/posts/1/comments
 ### Emmet
 - [Emmet](https://docs.emmet.io/)
 
-## References for JavaScript, TypeScript and Node.js
+## Extra material
+- [JavaScript Demos](https://skewcode.s3.amazonaws.com/demos/demos.html)
+
+## References for Git, JavaScript, TypeScript and Node.js
+- [Pro Git - free online book on Git](https://git-scm.com/book/en/v2)
 - [Excellent, in-depth and complete coverage on JavaScript](https://javascript.info/)
 - [Eloquent JavaScript by Marijn Haverbeke, a free book on JS with excellent exercises on all topics](http://eloquentjavascript.net/)
 - [Mozilla Developer Network documentation on web technologies](https://developer.mozilla.org)
-- [JavaScript Demos](https://skewcode.s3.amazonaws.com/demos/demos.html)
+- [Compatibility tables for JavaScript](https://kangax.github.io/compat-table/es6/)
 - [TypeScript website](https://www.typescriptlang.org/)
 - [Node.js website](https://nodejs.org/en/)
