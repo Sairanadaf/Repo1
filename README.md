@@ -7,13 +7,13 @@
 ## Meeting details
 __Meetimg timings__: 9:00 AM - 5:00 PM  
 __Dates__: Sep 9 - 13 2019  
-| Dates | Room Booked | Remarks |
-|---|---|---|
-| Sep 9 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |
-| Sep 10 | MR BLR03 C2.R24 (24) | The room is in RMZ 2C 2nd  floor |
-| Sep 11 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |
-| Sep 12 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |
-| Sep 13 | MR BLR03 1B2.R03 (22) and MR BLR03 1B2.R08 (22) | The room is in RMZ 1B 2nd floor |
+| Dates | Room Booked | Remarks |  
+|---|---|---|  
+| Sep 9 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |  
+| Sep 10 | MR BLR03 C2.R24 (24) | The room is in RMZ 2C 2nd  floor |  
+| Sep 11 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |  
+| Sep 12 | MR BLR03 C3.R19 (24) | The room is in RMZ 2C 3rd floor |  
+| Sep 13 | MR BLR03 1B2.R03 (22) and MR BLR03 1B2.R08 (22) | The room is in RMZ 1B 2nd floor |  
 
 ## Exercises
 Please refer the [exercises document](./exercises.md) for exercises given during the training sessions.
