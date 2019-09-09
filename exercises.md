@@ -217,3 +217,7 @@ var quote = 'With great power comes great responsibility';
 31. Within an HTML page, write a script to fetch data about things to do from https://jsonplaceholder.typicode.com/todos. Display the results in a list in the page. Make sure to display an error message in the same page in case of any errors.
 
 32. Within an HTML page, write a script to fetch data about products from https://awesome-store-server.herokuapp.com/products. Display the results in a card layout (gallery). The image of the product should be placed on top every card. Make sure to display an error message in the same page in case of any errors.
+
+33. Create an object vehicle with name (string), averageSpeed (number) and type (string with value "air" | "water" | "land"). Create 2 other objects - car, aeroplane, with vehicle as their prototype. Add engineCapacity, typeOfFuel to each and set them. To the car object, add numAirbags. To the aeroplane add thrust.
+
+34. Create a Movie class that represents details of a movie. Suggested information to have in an object of the class - name, cast (an array of strings with cast member's names), yearOfRelease, boxOfficeCollection, addToCast( newMember ) that accepts a new cast member's name and adds to the cast array, addToCollection( amount ) that accepts box office collections for a week and adds it to the current boxOfficeCollection. Create 2 objects of this class that represent any 2 movies. Call the methods addToCast() and addToCollection() and verify they work according to expectations.
