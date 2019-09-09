@@ -4,6 +4,10 @@
 - The list of software to be installed before start of training can be found [here](./js-ts-nodejs-list-of-software-to-be-installed.pdf)
 - The course curriculum can be found [here](./git-javascript-typescript-nodejs-revised.pdf)
 
+## Extra material
+- [JavaScript Demos](https://skewcode.s3.amazonaws.com/demos/demos.html)
+- [Slides for Git](./git.pdf)
+
 ## Meeting details
 __Meetimg timings__: 9:00 AM - 5:00 PM  
 __Dates__: Sep 9 - 13 2019  
@@ -58,9 +62,6 @@ http://localhost:4201/posts/1/comments
 
 ### Emmet
 - [Emmet](https://docs.emmet.io/)
-
-## Extra material
-- [JavaScript Demos](https://skewcode.s3.amazonaws.com/demos/demos.html)
 
 ## References for Git, JavaScript, TypeScript and Node.js
 - [Pro Git - free online book on Git](https://git-scm.com/book/en/v2)
