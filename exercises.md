@@ -166,7 +166,7 @@ var days = [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', '
 
 25. Given the following array, solve the questions that follow using appropriate array iterator methods (forEach, find, filter, map)
 ```
-var days = [
+var phones = [
     { name : 'Samsung Galaxy S10+ Plus', price: '620', type: 'refurbished', manufacturer: 'Samsung' },
     { name : 'Apple iPhone 7 Plus', price: '450', type: 'refurbished', manufacturer: 'Apple' },
     { name : 'One Plus 6', price: '430', type: 'new', manufacturer: 'OnePlus' },
@@ -221,3 +221,16 @@ var quote = 'With great power comes great responsibility';
 33. Create an object vehicle with name (string), averageSpeed (number) and type (string with value "air" | "water" | "land"). Create 2 other objects - car, aeroplane, with vehicle as their prototype. Add engineCapacity, typeOfFuel to each and set them. To the car object, add numAirbags. To the aeroplane add thrust.
 
 34. Create a Movie class that represents details of a movie. Suggested information to have in an object of the class - name, cast (an array of strings with cast member's names), yearOfRelease, boxOfficeCollection, addToCast( newMember ) that accepts a new cast member's name and adds to the cast array, addToCollection( amount ) that accepts box office collections for a week and adds it to the current boxOfficeCollection. Create 2 objects of this class that represent any 2 movies. Call the methods addToCast() and addToCollection() and verify they work according to expectations.
+
+35. When will you use an arrow function?
+
+36. When will you NOT use an arrow function?
+
+37. Write a function _sum_ that calculates and returns the sum of arguments (assume all arguments are numbers) passed to it, and call it like so. Use a rest parameter to implement this. 
+```
+var result = sum( 1, 2, 3, 4 );
+console.log( result ); // prints 10
+
+var result = sum( 1, 2, 3, 4, 5  );
+console.log( result ); // prints 15
+```

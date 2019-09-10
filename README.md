@@ -9,6 +9,7 @@
 - [Slides for Git](./git.pdf)
 
 ## Meeting details
+__Meeting link__: https://zoom.us/j/877632441  
 __Meetimg timings__: 9:00 AM - 5:00 PM  
 __Dates__: Sep 9 - 13 2019  
 | Dates | Room Booked | Remarks |  
