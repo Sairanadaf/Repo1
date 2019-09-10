@@ -12,4 +12,4 @@ function sum (x,y)
 }
 
 var output = sum(2,3);
-console.log(output(6));
+console.log(output(5));
