@@ -4,6 +4,10 @@ var personalDetails = {
     maritalStatus: 'married'
 };
 
+function getTeam() {
+    return this.team;
+};
+
 var John = {
     "name" : 'John',
     "years in sap" : 2,
@@ -12,39 +16,52 @@ var John = {
         'BYD',
         'SME'
     ],
-    personalDetails: personalDetails
+    personalDetails: personalDetails,
+    increaseExperience: function() { // for a method, the call context is the object to which it belongs
+        console.log( this );
+        this["years in sap"]++;
+    }
 };
 
-console.log( John );
+John.getTeam = getTeam;
 
-console.log( John.name );
-console.log( John["years in sap"] );
-var requiredDetail = "name";
-console.log( John[requiredDetail] );
+John.increaseExperience();
+console.log( 'John.getTeam = ', John.getTeam() );
 
-John.name = 'John S';
+console.log( 'John.getTeam.call( this ) = ', John.getTeam.call( this ) ); // "this" refers to global object
+console.log( 'John.getTeam() = ', John.getTeam() );
+console.log( getTeam.call( John ) );
 
-// add a new key
-John.location = 'Bangalore'; // add a string value
-John.emailids = [ 'John@sap.com', 'John@gmail.com' ]; // add an array
-// similarly we can add objects too
+// console.log( John );
 
-console.log( 'John dob = ', John.personalDetails.dob );
-console.log( 'John second project = ', John.projects[1] );
+// console.log( John.name );
+// console.log( John["years in sap"] );
+// var requiredDetail = "name";
+// console.log( John[requiredDetail] );
 
-delete John.personalDetails;
-delete John.personalDetails.dob;
+// John.name = 'John S';
 
-console.log( John );
+// // add a new key
+// John.location = 'Bangalore'; // add a string value
+// John.emailids = [ 'John@sap.com', 'John@gmail.com' ]; // add an array
+// // similarly we can add objects too
 
-var JohnMasterDetails = {
-    spouseName: 'Jane',
-    childrenNames: [
-        'Mark',
-        'RIta'
-    ],
-    sapEmployeeDetails: John
-};
+// console.log( 'John dob = ', John.personalDetails.dob );
+// console.log( 'John second project = ', John.projects[1] );
 
-console.log( JohnMasterDetails.xyz ); // undefined
-console.log( JohnMasterDetails.personalDetails ); // undefined
+// delete John.personalDetails;
+// delete John.personalDetails.dob;
+
+// console.log( John );
+
+// var JohnMasterDetails = {
+//     spouseName: 'Jane',
+//     childrenNames: [
+//         'Mark',
+//         'RIta'
+//     ],
+//     sapEmployeeDetails: John
+// };
+
+// console.log( JohnMasterDetails.xyz ); // undefined
+// console.log( JohnMasterDetails.personalDetails ); // undefined
